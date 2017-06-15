@@ -4,15 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-TicTacToe.xcscheme_^#shared#^_</key>
+		<key>Pods-TicTacToe.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
+		</dict>
+		<key>VSMobileCenterExtensions.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>AB8993FA2AACCCB85460B543703AD0FC</key>
+		<key>3CCE27C6ACC9B4A82E025D09D2FCADD5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7E8144344A30BACDC462D0ACE839059</key>
 		<dict>
 			<key>primary</key>
 			<true/>

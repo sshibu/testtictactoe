@@ -7,39 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75F3AFBA353A8E0953F0E109BCF5FB98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		76803898AA7045C0CE4AA023A988ED2F /* Pods-TicTacToe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09209D848D6FBAF2945AB0F52546EC93 /* Pods-TicTacToe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D62CA5AD37E52F4B8895ED258BE52555 /* Pods-TicTacToe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 725531763FB7851D3DACE6676618D3C2 /* Pods-TicTacToe-dummy.m */; };
+		01154B69CC9F2FC76ADC223CA4CDB8A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */; };
+		0453ABAA6F85E755BAF5307AEC1F68D9 /* VSMobileCenterExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 93819BBFF3CA6EA5ABD6B032BCB36869 /* VSMobileCenterExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ECF408D81D2B2760B4D02E519A5AD19 /* VSMobileCenterExtensions-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 28DE8BB62A92E06F5319FDD3D67234AC /* VSMobileCenterExtensions-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B200F42FF86EC8ADD96572CDE5E8697 /* Pods-TicTacToe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09209D848D6FBAF2945AB0F52546EC93 /* Pods-TicTacToe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		869B20C5E251A2914ABCD3720B510D5E /* MCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F8587DBA1B502AB7E9740D8F42400B /* MCLabel.m */; };
+		992A9D1359E6E13D42F70AF863D9DB5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
+		998F325B64F70C676DF630CFDABEAA00 /* VSMobileCenterExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F612D97DE9C495DE2F69051283E6AC67 /* VSMobileCenterExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7F71BC642F7D0A973EF673901D6A7E6 /* MCLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E066674EDB40385CC6440DECA56FF3 /* MCLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C961D7D8D084690EDF8B9AC4F6F326FE /* Pods-TicTacToe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 725531763FB7851D3DACE6676618D3C2 /* Pods-TicTacToe-dummy.m */; };
+		EAFA3F1AC05953440303201187CB48D1 /* VSMobileCenterExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D781C432078F2E9E371DA8FF2BAA80B9 /* VSMobileCenterExtensions-dummy.m */; };
+		F02B70B31EF30EA400A91F9D /* MobileCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02B70B01EF30EA400A91F9D /* MobileCenter.framework */; };
+		F02B70B41EF30EA400A91F9D /* MobileCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02B70B11EF30EA400A91F9D /* MobileCenterAnalytics.framework */; };
+		F02B70B51EF30EA400A91F9D /* MobileCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02B70B21EF30EA400A91F9D /* MobileCenterCrashes.framework */; };
+		F6B4E260E5B2490F5AE4269CED57AA37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC72A8247F5C904CBD41E2D771036416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E8144344A30BACDC462D0ACE839059;
+			remoteInfo = VSMobileCenterExtensions;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		09209D848D6FBAF2945AB0F52546EC93 /* Pods-TicTacToe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TicTacToe-umbrella.h"; sourceTree = "<group>"; };
+		28DE8BB62A92E06F5319FDD3D67234AC /* VSMobileCenterExtensions-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "VSMobileCenterExtensions-Bridging-Header.h"; path = "VSMobileCenterExtensions/VSMobileCenterExtensions-Bridging-Header.h"; sourceTree = "<group>"; };
 		3EAAA3466BB66BCD5B69EC9767869D34 /* Pods-TicTacToe-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TicTacToe-acknowledgements.plist"; sourceTree = "<group>"; };
+		3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		484FF9D89D795CCC15F8C5D9501E0000 /* Pods-TicTacToe-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TicTacToe-frameworks.sh"; sourceTree = "<group>"; };
+		50F8587DBA1B502AB7E9740D8F42400B /* MCLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MCLabel.m; path = VSMobileCenterExtensions/MCLabel.m; sourceTree = "<group>"; };
 		566EB69FED60F91612E2C920E092BDDF /* Pods-TicTacToe-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TicTacToe-resources.sh"; sourceTree = "<group>"; };
+		5CF6D242BDD7988825D3629D63E1483C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		656D96B1C78FF26AD2869C57B379A68E /* Pods-TicTacToe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TicTacToe.debug.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6842B1EAA961D953B2A41B906B24FA65 /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenter.framework; path = "MobileCenter-SDK-iOS/MobileCenter.framework"; sourceTree = "<group>"; };
 		725531763FB7851D3DACE6676618D3C2 /* Pods-TicTacToe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TicTacToe-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		74F81116123A04997941C06D14D624D5 /* VSMobileCenterExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VSMobileCenterExtensions.modulemap; sourceTree = "<group>"; };
+		79182F137C23CE4E1E6E491EBABAE329 /* VSMobileCenterExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VSMobileCenterExtensions.xcconfig; sourceTree = "<group>"; };
+		85BA5F2BDCBBFF03380BF46F56F436C0 /* VSMobileCenterExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VSMobileCenterExtensions-prefix.pch"; sourceTree = "<group>"; };
+		901E16E744E339178AABABA3BE3DE391 /* Pods_TicTacToe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicTacToe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93819BBFF3CA6EA5ABD6B032BCB36869 /* VSMobileCenterExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VSMobileCenterExtensions.h; path = VSMobileCenterExtensions/VSMobileCenterExtensions.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95CFEEB18998252AE7C3697A39471F76 /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterAnalytics.framework; path = "MobileCenter-SDK-iOS/MobileCenterAnalytics.framework"; sourceTree = "<group>"; };
 		A17E2B72DDF3D345248E31D59A1BF4A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3F1B9EC2C3974CF16A7F2E7A27E3939 /* Pods-TicTacToe-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TicTacToe-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A89F34C573D016A0AFCD1E863541ED1D /* Pods-TicTacToe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TicTacToe.release.xcconfig"; sourceTree = "<group>"; };
-		B7020BF05FD6B95A3B4185AA375B40D4 /* Pods_TicTacToe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TicTacToe.framework; path = "Pods-TicTacToe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8C50B9188E32AC1E4FD8543F4FE151F /* Pods-TicTacToe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TicTacToe.modulemap"; sourceTree = "<group>"; };
+		B2A15798684779A4FD7CBD0970FDB964 /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterCrashes.framework; path = "MobileCenter-SDK-iOS/MobileCenterCrashes.framework"; sourceTree = "<group>"; };
+		C1E066674EDB40385CC6440DECA56FF3 /* MCLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCLabel.h; path = VSMobileCenterExtensions/MCLabel.h; sourceTree = "<group>"; };
+		C8C50B9188E32AC1E4FD8543F4FE151F /* Pods-TicTacToe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TicTacToe.modulemap"; sourceTree = "<group>"; };
+		D781C432078F2E9E371DA8FF2BAA80B9 /* VSMobileCenterExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VSMobileCenterExtensions-dummy.m"; sourceTree = "<group>"; };
+		E244FF245BEC695EA2B154ED45C57245 /* VSMobileCenterExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VSMobileCenterExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F02B70B01EF30EA400A91F9D /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenter.framework; path = "../MobileCenter-SDK-iOS/MobileCenter.framework"; sourceTree = "<group>"; };
+		F02B70B11EF30EA400A91F9D /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterAnalytics.framework; path = "../MobileCenter-SDK-iOS/MobileCenterAnalytics.framework"; sourceTree = "<group>"; };
+		F02B70B21EF30EA400A91F9D /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterCrashes.framework; path = "../MobileCenter-SDK-iOS/MobileCenterCrashes.framework"; sourceTree = "<group>"; };
+		F612D97DE9C495DE2F69051283E6AC67 /* VSMobileCenterExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VSMobileCenterExtensions-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B2B713DFA02ACF116D90C868083749AD /* Frameworks */ = {
+		0A14E2C050CE71BC8EF27B56081A9D77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75F3AFBA353A8E0953F0E109BCF5FB98 /* Foundation.framework in Frameworks */,
+				992A9D1359E6E13D42F70AF863D9DB5F /* Foundation.framework in Frameworks */,
+				01154B69CC9F2FC76ADC223CA4CDB8A5 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4777C596B4628BC12125BBC1CC9CB44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B4E260E5B2490F5AE4269CED57AA37 /* Foundation.framework in Frameworks */,
+				F02B70B31EF30EA400A91F9D /* MobileCenter.framework in Frameworks */,
+				F02B70B41EF30EA400A91F9D /* MobileCenterAnalytics.framework in Frameworks */,
+				F02B70B51EF30EA400A91F9D /* MobileCenterCrashes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04B1B814C22812D5FFDC2403BA721CC9 /* MobileCenterAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				134C227B13EBDD5AD9013E13B79F299C /* Frameworks */,
+			);
+			name = MobileCenterAnalytics;
+			sourceTree = "<group>";
+		};
+		0F52C97D5A15C39E26245BE7B6A32279 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CF6D242BDD7988825D3629D63E1483C /* Info.plist */,
+				74F81116123A04997941C06D14D624D5 /* VSMobileCenterExtensions.modulemap */,
+				79182F137C23CE4E1E6E491EBABAE329 /* VSMobileCenterExtensions.xcconfig */,
+				D781C432078F2E9E371DA8FF2BAA80B9 /* VSMobileCenterExtensions-dummy.m */,
+				85BA5F2BDCBBFF03380BF46F56F436C0 /* VSMobileCenterExtensions-prefix.pch */,
+				F612D97DE9C495DE2F69051283E6AC67 /* VSMobileCenterExtensions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VSMobileCenterExtensions";
+			sourceTree = "<group>";
+		};
+		134C227B13EBDD5AD9013E13B79F299C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95CFEEB18998252AE7C3697A39471F76 /* MobileCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2ACF89BF410191A0D2268B76F2E972E7 /* Pods-TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
@@ -58,43 +139,112 @@
 			path = "Target Support Files/Pods-TicTacToe";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		2DE0280F18020377A4FFAFFF209433AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				81D083C7587983BF54256008167CB520 /* Products */,
-				EB2254DF0DA2FF0C81F3A46228DAAEA4 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		81D083C7587983BF54256008167CB520 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B7020BF05FD6B95A3B4185AA375B40D4 /* Pods_TicTacToe.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				B2A15798684779A4FD7CBD0970FDB964 /* MobileCenterCrashes.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		3150D20CE4FD40A5CB49EC5A8E6AC492 /* MobileCenterCrashes */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				2DE0280F18020377A4FFAFFF209433AE /* Frameworks */,
+			);
+			name = MobileCenterCrashes;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BE34EE7067F7CC8A54539A282682749 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6954A7A071C107B9D677B0CF9ED0AA06 /* MobileCenter */ = {
+			isa = PBXGroup;
+			children = (
+				B873B73CBA7D25DF01594DBE027C3792 /* Frameworks */,
+			);
+			name = MobileCenter;
+			sourceTree = "<group>";
+		};
+		7BE34EE7067F7CC8A54539A282682749 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */,
+				3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BA9551B64FACE85A7BBDC84DFD3C8295 /* Pods */,
+				A7BD304D0DA4CA7A92D7EBE759A963F1 /* Products */,
+				EB2254DF0DA2FF0C81F3A46228DAAEA4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A32F3BA17370D549D4AF8777C30D24E1 /* MobileCenter */ = {
+			isa = PBXGroup;
+			children = (
+				6954A7A071C107B9D677B0CF9ED0AA06 /* MobileCenter */,
+				04B1B814C22812D5FFDC2403BA721CC9 /* MobileCenterAnalytics */,
+				3150D20CE4FD40A5CB49EC5A8E6AC492 /* MobileCenterCrashes */,
+			);
+			path = MobileCenter;
+			sourceTree = "<group>";
+		};
+		A7BD304D0DA4CA7A92D7EBE759A963F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				901E16E744E339178AABABA3BE3DE391 /* Pods_TicTacToe.framework */,
+				E244FF245BEC695EA2B154ED45C57245 /* VSMobileCenterExtensions.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B707E2328AB3B266975578D96948245C /* VSMobileCenterExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				C1E066674EDB40385CC6440DECA56FF3 /* MCLabel.h */,
+				50F8587DBA1B502AB7E9740D8F42400B /* MCLabel.m */,
+				93819BBFF3CA6EA5ABD6B032BCB36869 /* VSMobileCenterExtensions.h */,
+				28DE8BB62A92E06F5319FDD3D67234AC /* VSMobileCenterExtensions-Bridging-Header.h */,
+				0F52C97D5A15C39E26245BE7B6A32279 /* Support Files */,
+			);
+			path = VSMobileCenterExtensions;
+			sourceTree = "<group>";
+		};
+		B873B73CBA7D25DF01594DBE027C3792 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6842B1EAA961D953B2A41B906B24FA65 /* MobileCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA9551B64FACE85A7BBDC84DFD3C8295 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A32F3BA17370D549D4AF8777C30D24E1 /* MobileCenter */,
+				B707E2328AB3B266975578D96948245C /* VSMobileCenterExtensions */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		EB2254DF0DA2FF0C81F3A46228DAAEA4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				F02B70B01EF30EA400A91F9D /* MobileCenter.framework */,
+				F02B70B11EF30EA400A91F9D /* MobileCenterAnalytics.framework */,
+				F02B70B21EF30EA400A91F9D /* MobileCenterCrashes.framework */,
 				2ACF89BF410191A0D2268B76F2E972E7 /* Pods-TicTacToe */,
 			);
 			name = "Targets Support Files";
@@ -103,32 +253,61 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A068AC93AA9DC4A4ED0B4A16F272FE99 /* Headers */ = {
+		B4F7E8ADB1F2EC985479556E42B9B2FE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76803898AA7045C0CE4AA023A988ED2F /* Pods-TicTacToe-umbrella.h in Headers */,
+				7B200F42FF86EC8ADD96572CDE5E8697 /* Pods-TicTacToe-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C0AD41EC457F79F3827457CCF6E3FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F71BC642F7D0A973EF673901D6A7E6 /* MCLabel.h in Headers */,
+				0ECF408D81D2B2760B4D02E519A5AD19 /* VSMobileCenterExtensions-Bridging-Header.h in Headers */,
+				998F325B64F70C676DF630CFDABEAA00 /* VSMobileCenterExtensions-umbrella.h in Headers */,
+				0453ABAA6F85E755BAF5307AEC1F68D9 /* VSMobileCenterExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AB8993FA2AACCCB85460B543703AD0FC /* Pods-TicTacToe */ = {
+		3CCE27C6ACC9B4A82E025D09D2FCADD5 /* Pods-TicTacToe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8A609994C95CED9BE6AAED257303AAD /* Build configuration list for PBXNativeTarget "Pods-TicTacToe" */;
+			buildConfigurationList = 841CD533BEE43F307033EE3B7F6120D0 /* Build configuration list for PBXNativeTarget "Pods-TicTacToe" */;
 			buildPhases = (
-				17E13E207A6B779EBBC2F2C7C8C04E3D /* Sources */,
-				B2B713DFA02ACF116D90C868083749AD /* Frameworks */,
-				A068AC93AA9DC4A4ED0B4A16F272FE99 /* Headers */,
+				37161C82AC7587AC3F04CE25312BA3F3 /* Sources */,
+				4777C596B4628BC12125BBC1CC9CB44E /* Frameworks */,
+				B4F7E8ADB1F2EC985479556E42B9B2FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DF50FDAF71EA07CC6EFA95E7E14FED9 /* PBXTargetDependency */,
+			);
+			name = "Pods-TicTacToe";
+			productName = "Pods-TicTacToe";
+			productReference = 901E16E744E339178AABABA3BE3DE391 /* Pods_TicTacToe.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7E8144344A30BACDC462D0ACE839059 /* VSMobileCenterExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9236AB1BF0B083FAAA271C477AAA82B /* Build configuration list for PBXNativeTarget "VSMobileCenterExtensions" */;
+			buildPhases = (
+				B4156C64ABE7470054D3F9A6B400DC58 /* Sources */,
+				0A14E2C050CE71BC8EF27B56081A9D77 /* Frameworks */,
+				B5C0AD41EC457F79F3827457CCF6E3FD /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-TicTacToe";
-			productName = "Pods-TicTacToe";
-			productReference = B7020BF05FD6B95A3B4185AA375B40D4 /* Pods_TicTacToe.framework */;
+			name = VSMobileCenterExtensions;
+			productName = VSMobileCenterExtensions;
+			productReference = E244FF245BEC695EA2B154ED45C57245 /* VSMobileCenterExtensions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -148,25 +327,44 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 81D083C7587983BF54256008167CB520 /* Products */;
+			productRefGroup = A7BD304D0DA4CA7A92D7EBE759A963F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB8993FA2AACCCB85460B543703AD0FC /* Pods-TicTacToe */,
+				3CCE27C6ACC9B4A82E025D09D2FCADD5 /* Pods-TicTacToe */,
+				C7E8144344A30BACDC462D0ACE839059 /* VSMobileCenterExtensions */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17E13E207A6B779EBBC2F2C7C8C04E3D /* Sources */ = {
+		37161C82AC7587AC3F04CE25312BA3F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D62CA5AD37E52F4B8895ED258BE52555 /* Pods-TicTacToe-dummy.m in Sources */,
+				C961D7D8D084690EDF8B9AC4F6F326FE /* Pods-TicTacToe-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4156C64ABE7470054D3F9A6B400DC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869B20C5E251A2914ABCD3720B510D5E /* MCLabel.m in Sources */,
+				EAFA3F1AC05953440303201187CB48D1 /* VSMobileCenterExtensions-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DF50FDAF71EA07CC6EFA95E7E14FED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VSMobileCenterExtensions;
+			target = C7E8144344A30BACDC462D0ACE839059 /* VSMobileCenterExtensions */;
+			targetProxy = BC72A8247F5C904CBD41E2D771036416 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
@@ -217,7 +415,40 @@
 			};
 			name = Debug;
 		};
-		2D0DC8CC34BC7306F50D145A24E5B4C5 /* Debug */ = {
+		16FC1269A4B61C75BD7074CEC1F3746B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79182F137C23CE4E1E6E491EBABAE329 /* VSMobileCenterExtensions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VSMobileCenterExtensions/VSMobileCenterExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VSMobileCenterExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VSMobileCenterExtensions/VSMobileCenterExtensions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VSMobileCenterExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		577F4E527F3916FDED1CF7D08B38D6DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 656D96B1C78FF26AD2869C57B379A68E /* Pods-TicTacToe.debug.xcconfig */;
 			buildSettings = {
@@ -297,7 +528,7 @@
 			};
 			name = Release;
 		};
-		DF59E585AA803020952CA0705EF69B70 /* Release */ = {
+		A380409347A61DCE50E3CE675F60B8A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A89F34C573D016A0AFCD1E863541ED1D /* Pods-TicTacToe.release.xcconfig */;
 			buildSettings = {
@@ -333,6 +564,39 @@
 			};
 			name = Release;
 		};
+		BB9145BC993B977CAF9AD76287F98CD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79182F137C23CE4E1E6E491EBABAE329 /* VSMobileCenterExtensions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VSMobileCenterExtensions/VSMobileCenterExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VSMobileCenterExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VSMobileCenterExtensions/VSMobileCenterExtensions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VSMobileCenterExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -345,11 +609,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8A609994C95CED9BE6AAED257303AAD /* Build configuration list for PBXNativeTarget "Pods-TicTacToe" */ = {
+		841CD533BEE43F307033EE3B7F6120D0 /* Build configuration list for PBXNativeTarget "Pods-TicTacToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D0DC8CC34BC7306F50D145A24E5B4C5 /* Debug */,
-				DF59E585AA803020952CA0705EF69B70 /* Release */,
+				577F4E527F3916FDED1CF7D08B38D6DB /* Debug */,
+				A380409347A61DCE50E3CE675F60B8A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9236AB1BF0B083FAAA271C477AAA82B /* Build configuration list for PBXNativeTarget "VSMobileCenterExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9145BC993B977CAF9AD76287F98CD0 /* Debug */,
+				16FC1269A4B61C75BD7074CEC1F3746B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
