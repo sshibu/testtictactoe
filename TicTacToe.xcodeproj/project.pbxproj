@@ -124,7 +124,7 @@
 					F025747D1EF1D5C200DC9725 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = L4RARDNZ2Y;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -340,8 +340,10 @@
 				DEVELOPMENT_TEAM = L4RARDNZ2Y;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.azure.mobile.demoapp.swift-com.microsoft.azure.mobile.demoapp.swift-com.microsoft.azure.mobile.demoapp.swift-com.microsoft.azure.mobile.demoapp.swift-com.microsoft.azure.mobile.demoapp.swift-com.microsoft.azure.mobile.demoapp.swift-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.azure.mobile.demoapp.swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "17690182-4e8a-481f-8115-744ba378130e";
+				PROVISIONING_PROFILE_SPECIFIER = "Demo App Swift";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -354,8 +356,10 @@
 				DEVELOPMENT_TEAM = L4RARDNZ2Y;
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.azure.mobile.demoapp.swift-com.microsoft.azure.mobile.demoapp.swift-com.microsoft.azure.mobile.demoapp.swift-com.microsoft.azure.mobile.demoapp.swift-com.microsoft.azure.mobile.demoapp.swift-com.microsoft.azure.mobile.demoapp.swift-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.azure.mobile.demoapp.swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "17690182-4e8a-481f-8115-744ba378130e";
+				PROVISIONING_PROFILE_SPECIFIER = "Demo App Swift";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
